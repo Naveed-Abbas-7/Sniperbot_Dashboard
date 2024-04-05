@@ -61,7 +61,7 @@ const Tokens = () => {
                     Trending NFTS
                   </span>
                 </div>
-                <div className="flex flex-wrap justify-around">
+                <div className="flex flex-wrap justify-around max-sm:gap-4   ">
                   <TrendingNFT img={card1img} />
                   <TrendingNFT img={card2img} />
                   <TrendingNFT img={card3img} />

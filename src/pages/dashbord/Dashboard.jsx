@@ -62,7 +62,7 @@ const Dashboard = () => {
                     ))}
                   </Card>
                 </div>
-                <div className="flex  justify-around mt-11 flex-wrap md:gap-0 gap-6">
+                <div className="flex  justify-around mt-11 flex-wrap md:gap-0 gap-6 max-sm:py-3">
                   {data.totalItems.map((items) => (
                     <Totalitems
                       key={items.heading}

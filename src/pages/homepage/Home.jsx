@@ -150,7 +150,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col md:justify-between items-center h-[90vh] max-lg:h-[120vh] max-sm:h-[120vh] pt-9 w-[100%] bg-gradient-to-r from-black to-blue-950">
+        <div className="flex flex-col justify-around items-center h-[90vh] max-lg:h-[100vh] max-sm:h-[100vh] pt-9 w-[100%] bg-gradient-to-r from-black to-blue-950">
           <div className="pt-9 py-9">
             <span className="2xl:text-[48px] text-[38px]  text-transparent leading-tight bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 ">
               Partners

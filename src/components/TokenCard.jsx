@@ -14,7 +14,7 @@ const TokenCard = () => {
         <FiMoreHorizontal />
       </div>
       <div className="py-2 flex justify-center ">
-        <img className="2xl:w-[400px]" src={monkey} alt="" />
+        <img className="2xl:w-[400px] max-sm:w-[250px]" src={monkey} alt="" />
       </div>
       <div className="flex gap-2">
         <div className="flex flex-col">

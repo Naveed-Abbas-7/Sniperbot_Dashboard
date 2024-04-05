@@ -10,7 +10,7 @@ const TrendingNFT = ({ onclick, img }) => {
      rounded-xl shadow-md shadow-blue-700 "
     >
       <div>
-        <img className="2xl:w-[200px] w-[160px] " src={img} alt="" />
+        <img className="2xl:w-[200px] w-[160px] max-sm:w-[250px] " src={img} alt="" />
       </div>
       <div className="flex gap-2  items-center">
         <div>
