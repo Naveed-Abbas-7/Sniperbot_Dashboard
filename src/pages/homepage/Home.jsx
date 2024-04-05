@@ -17,6 +17,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -28,8 +29,9 @@ const Home = () => {
               <span className="md:text-[30px] text-[24px]">0xalpha.io</span>
             </div>
             <div className="flex md:gap-[3rem] text-[16px] ">
+              
               <div className="">
-                <span>Docs</span>
+              <Link to={"./Dashboard"}><button>Dashboard</button></Link> 
               </div>
               <div>
                 <span>Twitter</span>
