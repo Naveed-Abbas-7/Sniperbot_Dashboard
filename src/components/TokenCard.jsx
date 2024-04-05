@@ -13,21 +13,21 @@ const TokenCard = () => {
         </h2>
         <FiMoreHorizontal />
       </div>
-      <div className="py-2 flex justify-center">
-        <img src={monkey} alt="" />
+      <div className="py-2 flex justify-center ">
+        <img className="2xl:w-[400px]" src={monkey} alt="" />
       </div>
       <div className="flex gap-2">
         <div className="flex flex-col">
-          <span className="text-[11px] font-semibold font-orbitron">
+          <span className="2xl:text-[14px] text-[11px] font-semibold font-orbitron">
             Monkey #009
           </span>
           <span className="text-[6px]">highest bid</span>
         </div>
-        <div className="text-[8px]">1/1</div>
+        <div className="2xl:text-[10px] text-[8px]">1/1</div>
       </div>
       <div className="flex justify-between items-center mx-2">
-        <span className="text-[6px]">Bid 2.93 ETH</span>
-        <button className="text-[8px] py-1 px-3 rounded-full shadow-sm shadow-pink-700">
+        <span className="2xl:text-[8px] text-[6px]">Bid 2.93 ETH</span>
+        <button className=" 2xl:text-[10px] text-[8px] py-1 px-3 rounded-full shadow-sm shadow-pink-700">
           Place a Bid
         </button>
       </div>

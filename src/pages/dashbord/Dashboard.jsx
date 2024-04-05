@@ -29,7 +29,7 @@ const Dashboard = () => {
             <h1 className="text-white text-sm py-6 pl-5">
               Today's Price by marketcap
             </h1>
-            <div className="flex gap-4 flex-wrap">
+            <div className="flex justify-around flex-wrap">
               <div className="flex flex-col xl:w-[70%] w-full">
                 {/* Card */}
                 <div className="flex md:flex-row flex-col  md:mr-2 mr-7  md:gap-0 gap-6 justify-center items-center ">

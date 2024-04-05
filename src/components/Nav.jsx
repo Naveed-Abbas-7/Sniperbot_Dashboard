@@ -12,7 +12,7 @@ const Nav = ({ page, children }) => {
   };
   return (
     <section className="bg-[#000] text-white py-6 ">
-      <nav className=" flex  lg:gap-[120px] gap-[20px] px-3 max-md:hidden">
+      <nav className=" flex  lg:gap-[120px] gap-[20px] px-3 max-md:hidden justify-around">
         <div className="text-[#fff] flex items-center lg:gap-[3rem] gap-[1rem]">
           <div>
             <h1 className="lg:text-[28px] text-[20px] font-semibold font-orbitron">

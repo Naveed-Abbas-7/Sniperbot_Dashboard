@@ -24,9 +24,12 @@ const Home = () => {
     <section className="font-orbitron overflow-hidden">
       <div>
         <div className="bg-blue-700 text-white py-5 bg-gradient-to-r from-pink-800 to-blue-800  ">
+          <div className="sm:hidden block">
+        <Link to={"./Dashboard"}><button>Dashboard</button></Link> 
+        </div>
           <div className="md:flex hidden justify-between items-center max-sm:gap-4  px-[4rem]">
             <div>
-              <span className="md:text-[30px] text-[24px]">0xalpha.io</span>
+              <span className="2xl:text-[38px] md:text-[30px] text-[24px]">0xalpha.io</span>
             </div>
             <div className="flex md:gap-[3rem] text-[16px] ">
               
@@ -60,7 +63,7 @@ const Home = () => {
         >
           <div className=" h-screen flex items-center">
             <div className="text-white md:w-[55%] w-full mt-16  flex flex-col gap-6  pl-10 ">
-              <h1 className=" md:text-[48px] text-[32px] font-semibold">
+              <h1 className="2xl:text-[68px] md:text-[48px] text-[32px] font-semibold">
                 Automate Your Crypto <br />
                 <span>Trading</span> <br />
                 <span>With</span>{" "}
@@ -68,7 +71,7 @@ const Home = () => {
                   OXalpha SNIPER BOT
                 </span>
               </h1>
-              <p className="text-[#BEBEBE] border-2 md:text-[18px]  text-[14px] border-transparent border-gradient-to-r from-pink-800 to-blue-800">
+              <p className="text-[#BEBEBE] border-2  md:text-[18px] 2xl:text-[24px]  text-[14px] border-transparent border-gradient-to-r from-pink-800 to-blue-800">
                 OXalpa Sniper Bot automates cryptocurrency trading, executing
                 trades based on user-defined settings, making it suitable for
                 both experienced and novice traders, ensuring potential profit
@@ -120,7 +123,7 @@ const Home = () => {
               OXalpha Sniper Bot
             </span>
           </div>
-          <div className="flex flex-wrap gap-9 mx-auto justify-center	">
+          <div className="flex flex-wrap justify-around gap-5">
             <KeyFeaturesCard
               name={"Speed"}
               text={
@@ -149,11 +152,11 @@ const Home = () => {
         </div>
         <div className="flex flex-col md:justify-between items-center h-[90vh] max-lg:h-[120vh] max-sm:h-[120vh] pt-9 w-[100%] bg-gradient-to-r from-black to-blue-950">
           <div className="pt-9 py-9">
-            <span className=" text-[38px]  text-transparent leading-tight bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 ">
+            <span className="2xl:text-[48px] text-[38px]  text-transparent leading-tight bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 ">
               Partners
             </span>
           </div>
-          <div className="flex flex-wrap w-[70%] gap-3 items-center justify-center py-4 bg-gradient-to-r from-pink-800 to-blue-800  rounded-xl px-9">
+          <div className="flex flex-wrap w-[70%] gap-3 items-center justify-around py-4 bg-gradient-to-r from-pink-800 to-blue-800  rounded-xl px-9">
             <div>
               <img className="sm:w-[100px] w-[60px] " src={web3dev} alt="" />
             </div>
@@ -177,8 +180,8 @@ const Home = () => {
             </div>
           </div>
           <div className="text-white text-center pt-8 mb-9 ">
-            <h3 className="text-[20px]">Still Have Any Questions?</h3>
-            <p className="text-[18px] text-transparent leading-tight bg-clip-text bg-gradient-to-r from-pink-700 to-blue-600 py-4 ">
+            <h3 className="2xl:text-[28px] text-[20px]">Still Have Any Questions?</h3>
+            <p className="2xl:text-[24px] text-[18px] text-transparent leading-tight bg-clip-text bg-gradient-to-r from-pink-700 to-blue-600 py-4 ">
               Join to our discord channel to talk with one of our team members!
             </p>
             <button className="bg-black md:py-4 py-1 md:px-6 px-3 rounded-full border-2 md:text-[16px] text-[10px]">
@@ -187,7 +190,7 @@ const Home = () => {
           </div>
         </div>
         <div
-          className=" bg-black bg-center md:h-screen h-[140vh] flex justify-center items-center pb-6 pt-10 "
+          className=" bg-black bg-center md:h-screen h-[100vh] flex justify-center items-center pb-6 pt-10 "
           style={{
             backgroundImage: `url(${homebg2})`,
             backgroundSize: "cover",

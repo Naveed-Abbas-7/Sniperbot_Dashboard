@@ -3,8 +3,8 @@ import React from "react";
 const BottomCards = ({ title, paragraph, btn, children }) => {
   return (
     <div className="">
-      <span className="text-[20px]">{title} </span>
-      <p className="md:text-[14px] text-[10px] max-sm:text-[12px] text-[#D1D1D1] py-3">
+      <span className="2xl:text-[28px] text-[20px]">{title} </span>
+      <p className="2xl:text-[18px] md:text-[14px] text-[10px] max-sm:text-[12px] text-[#D1D1D1] py-3">
         {paragraph}The TUF Sniper Bot is a market-leading tool for trading newly
         released tokens on decentralized exchanges. With the speed of our Sniper
         Bot, you will be able to take positions on new launches, once trading

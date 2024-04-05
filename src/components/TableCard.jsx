@@ -100,7 +100,7 @@ export const TableCard = () => {
               {bigCarddata.map((data) => (
                 <tr
                   key={data.name}
-                  className="border-b-2 border-b-pink-800  text-[12px] max-sm:text-[10px]	"
+                  className="border-b-2 border-b-pink-800 2xl:text-[16px] text-[12px] max-sm:text-[10px]	"
                 >
                   <td className="py-[1.5rem]">
                     <img src={data.img} alt="" />

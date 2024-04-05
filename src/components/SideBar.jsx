@@ -12,7 +12,7 @@ import SidebarButtons from "./SidebarButtons";
 const SideBar = ({ img, title }) => {
   return (
     <>
-      <div className="text-[12px] lg:w-[210px] max-lg:w-[80px] max-sm:hidden text-white flex flex-col justify-between h-screen items-center ">
+      <div className="text-[12px] 2xl:w-[260px] lg:w-[210px] max-lg:w-[80px] max-sm:hidden text-white flex flex-col justify-between h-screen items-center ">
         <div className="flex flex-col gap-3 mt-9">
           <div>
             <SidebarButtons

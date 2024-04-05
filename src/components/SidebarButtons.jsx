@@ -15,10 +15,10 @@ const SidebarButtons = ({ img, title, LinkTo }) => {
           }`}
         >
           <div>
-            <img className="w-[16px] h-[16px]" src={img} alt="" />
+            <img className="2xl:w-[18px] w-[16px]" src={img} alt="" />
           </div>
           <div className="lg:block hidden">
-            <h1 className="text-white text-[12px] ">{title}</h1>
+            <h1 className="text-white 2xl:text-[16px] text-[12px] ">{title}</h1>
           </div>
         </button>
       </Link>

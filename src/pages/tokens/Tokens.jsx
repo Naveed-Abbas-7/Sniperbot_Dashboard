@@ -46,8 +46,8 @@ const Tokens = () => {
           <div className="bg-black mt-6 ml-3 rounded-md">
             <SideBar />
           </div>
-          <div className=" w-full flex xl:flex-row flex-col mx-5 mt-9 justify-between border-2">
-            <div className="border-2 w-full">
+          <div className=" w-full flex xl:flex-row flex-col mx-5 mt-9 justify-between ">
+            <div className=" w-full">
               <div className="flex flex-wrap gap-3 justify-around">
                 <TokenCard />
                 <TokenCard />
