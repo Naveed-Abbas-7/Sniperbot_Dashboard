@@ -6,11 +6,11 @@ import eth from "../assets/gallery/eth.png";
 const TrendingNFT = ({ onclick, img }) => {
   return (
     <div
-      className="bg-black flex flex-col items-center py-1 px-2
+      className="bg-black flex flex-col items-center py-1 px-2 2xl:w-[250px]
      rounded-xl shadow-md shadow-blue-700 "
     >
       <div>
-        <img className="w-[160px] h-[90px]" src={img} alt="" />
+        <img className="2xl:w-[200px] w-[160px] " src={img} alt="" />
       </div>
       <div className="flex gap-2  items-center">
         <div>

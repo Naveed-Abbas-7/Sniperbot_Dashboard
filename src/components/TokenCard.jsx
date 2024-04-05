@@ -5,7 +5,7 @@ import { FiMoreHorizontal } from "react-icons/fi";
 
 const TokenCard = () => {
   return (
-    <div className=" bg-black text-white py-2 px-1 rounded-lg md:w-[140px] w-[200px]  shadow-sm shadow-pink-700">
+    <div className=" bg-black text-white py-2 px-1  rounded-lg 2xl:w-[200px] lg:w-[140px] sm:w-[200px] shadow-sm shadow-pink-700">
       <div className="text-white flex items-center gap-3">
         <img className="h-[22px] w-[22px]" src={person} alt="" />
         <h2 className="font-semibold text-[10px] font-orbitron">

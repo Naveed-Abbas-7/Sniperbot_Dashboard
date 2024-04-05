@@ -46,9 +46,9 @@ const Tokens = () => {
           <div className="bg-black mt-6 ml-3 rounded-md">
             <SideBar />
           </div>
-          <div className=" w-full flex xl:flex-row flex-col mx-5 mt-9 justify-between">
-            <div className="">
-              <div className="flex flex-wrap gap-3 justify-center">
+          <div className=" w-full flex xl:flex-row flex-col mx-5 mt-9 justify-between border-2">
+            <div className="border-2 w-full">
+              <div className="flex flex-wrap gap-3 justify-around">
                 <TokenCard />
                 <TokenCard />
                 <TokenCard />
@@ -68,7 +68,7 @@ const Tokens = () => {
                   <TrendingNFT img={card4img} />
                 </div>
                 <div className="mt-9 ">
-                  <div className="bg-black flex flex-col gap-7 pl-2 py-2 rounded-2xl shadow-md shadow-pink-700">
+                  <div className="bg-black lg:w-[500px] w-full flex flex-col gap-7 pl-2 py-2 rounded-2xl shadow-md shadow-pink-700">
                     <div className="flex justify-between mx-4">
                       <span className="text-[22px] font-semibold font-poppins">
                         Top Collections
@@ -97,7 +97,7 @@ const Tokens = () => {
 
             <div className="flex xl:flex-col flex-row gap-[3rem]  items-center pt-6 pb-[150px] max-md:flex-col">
               <div>
-                <div className="flex flex-col bg-[#333232]  shadow-md shadow-blue-700  rounded-2xl font-poppins lg:w-[330px] w-[270px] px-2">
+                <div className="flex flex-col bg-[#333232]  shadow-md shadow-blue-700  rounded-2xl font-poppins 2xl:w-[400px] lg:w-[330px] w-[270px] px-2">
                   <div className="ml-2 mt-4 ">
                     <button className="bg-[#AD1AAF] hidden py-4 px-[2rem] absolute right-[100px] rounded-lg top-[115px] bg-gradient-to-r from-blue-700 to-pink-700  ">
                       Live Auction
@@ -125,7 +125,7 @@ const Tokens = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col bg-[#333232] shadow-md shadow-blue-700 gap-5 rounded-2xl font-poppins lg:w-[330px] w-[270px] px-2 py-6">
+              <div className="flex flex-col bg-[#333232] shadow-md shadow-blue-700 gap-5 rounded-2xl font-poppins 2xl:w-[400px] lg:w-[330px] w-[270px] px-2 py-6">
                 <div className="flex justify-between items-center ">
                   <span className="md:text-[22px] text-[18px] font-semibold">
                     Top Creators

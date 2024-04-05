@@ -72,7 +72,7 @@ const Dashboard = () => {
                   ))}
                 </div>
               </div>
-              <div className="bg-black rounded-2xl xl:w-[300px] w-full xl:mx-0 mx-5 xl:py-0 sm:pb-1 shadow-md shadow-blue-700">
+              <div className="bg-black rounded-2xl 2xl:w-[400px] lg:w-[300px] w-full xl:mx-0 mx-5 xl:py-0 sm:pb-1 shadow-md shadow-blue-700">
                 <div className="text-white flex justify-between mx-6 py-3">
                   <h2 className="text-[20px] font-semibold">History</h2>
                   <p className="text-[12px] text-green-600">See all</p>
