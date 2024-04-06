@@ -29,8 +29,8 @@ const Dashboard = () => {
             <h1 className="text-white text-sm py-6 pl-5">
               Today's Price by marketcap
             </h1>
-            <div className="flex justify-around flex-wrap">
-              <div className="flex flex-col xl:w-[70%] w-full">
+            <div className="flex justify-between lg:flex-row flex-col">
+              <div className="flex flex-col w-full">
                 {/* Card */}
                 <div className="flex md:flex-row flex-col  md:mr-2 mr-7  md:gap-0 gap-6 justify-center items-center ">
                   <Card img={Trending} title={"Trending"} sub_text={"See all"}>
@@ -62,7 +62,7 @@ const Dashboard = () => {
                     ))}
                   </Card>
                 </div>
-                <div className="flex  justify-around mt-11 flex-wrap md:gap-0 gap-6 max-sm:py-3">
+                <div className="grid 2xl:gap-7 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl: mx-7 mx-3 my-5 max-sm:w-[80%] ml-7">
                   {data.totalItems.map((items) => (
                     <Totalitems
                       key={items.heading}
@@ -72,7 +72,7 @@ const Dashboard = () => {
                   ))}
                 </div>
               </div>
-              <div className="bg-black rounded-2xl 2xl:w-[400px] lg:w-[300px] w-full xl:mx-0 mx-5 xl:py-0 sm:pb-1 shadow-md shadow-blue-700">
+              <div className="bg-black rounded-2xl xl:mx-0 mx-5 xl:py-0 sm:pb-1 shadow-md shadow-blue-700">
                 <div className="text-white flex justify-between mx-6 py-3">
                   <h2 className="text-[20px] font-semibold">History</h2>
                   <p className="text-[12px] text-green-600">See all</p>

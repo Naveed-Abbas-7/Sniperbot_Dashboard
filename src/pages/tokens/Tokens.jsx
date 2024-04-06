@@ -46,9 +46,9 @@ const Tokens = () => {
           <div className="bg-black mt-6 ml-3 rounded-md">
             <SideBar />
           </div>
-          <div className=" w-full flex xl:flex-row flex-col mx-5 mt-9 justify-between ">
+          <div className=" w-full flex xl:flex-row flex-col mx-5 mt-9 gap-9 ">
             <div className=" w-full">
-              <div className="flex flex-wrap gap-3 justify-around">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 justify-center">
                 <TokenCard />
                 <TokenCard />
                 <TokenCard />
@@ -61,14 +61,14 @@ const Tokens = () => {
                     Trending NFTS
                   </span>
                 </div>
-                <div className="flex flex-wrap justify-around max-sm:gap-4   ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 justify-around ">
                   <TrendingNFT img={card1img} />
                   <TrendingNFT img={card2img} />
                   <TrendingNFT img={card3img} />
                   <TrendingNFT img={card4img} />
                 </div>
                 <div className="mt-9 ">
-                  <div className="bg-black lg:w-[500px] w-full flex flex-col gap-7 pl-2 py-2 rounded-2xl shadow-md shadow-pink-700">
+                  <div className="bg-black w-fit max-md:w-full flex flex-col gap-7 pl-2 py-2 rounded-2xl shadow-md shadow-pink-700">
                     <div className="flex justify-between mx-4">
                       <span className="text-[22px] font-semibold font-poppins">
                         Top Collections
@@ -78,12 +78,10 @@ const Tokens = () => {
                         <span className="text-[#396fa1] "> 7days</span>
                       </span>
                     </div>
-                    <div className="flex gap-5">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
                       <TopCollection img={img1} name={"CryptoKing"} sr={"#1"} />
                       <TopCollection img={img2} name={"Meme"} sr={"#2"} />
                       <TopCollection img={img3} name={"mob"} sr={"#3"} />
-                    </div>
-                    <div className="flex gap-4">
                       <TopCollection img={img4} name={"coup"} sr={"#4"} />
                       <TopCollection img={img5} name={"frendz"} sr={"#5"} />
                       <TopCollection img={img6} name={"omo Ologo"} sr={"#6"} />
@@ -97,7 +95,7 @@ const Tokens = () => {
 
             <div className="flex xl:flex-col flex-row gap-[3rem]  items-center pt-6 pb-[150px] max-md:flex-col">
               <div>
-                <div className="flex flex-col bg-[#333232]  shadow-md shadow-blue-700  rounded-2xl font-poppins 2xl:w-[400px] lg:w-[330px] w-[270px] px-2">
+                <div className="flex flex-col bg-[#333232]  shadow-md shadow-blue-700  rounded-2xl font-poppins  px-2">
                   <div className="ml-2 mt-4 ">
                     <button className="bg-[#AD1AAF] hidden py-4 px-[2rem] absolute right-[100px] rounded-lg top-[115px] bg-gradient-to-r from-blue-700 to-pink-700  ">
                       Live Auction
@@ -109,7 +107,7 @@ const Tokens = () => {
                       <h3 className="text-[20px]">Ebony #2775</h3>
                       <div className="text-[12px] flex flex-col">
                         <span>10.15 ETH</span>
-                        <div className="flex md:gap-[5rem] justify-between items-center">
+                        <div className="flex justify-between items-center">
                           <span className="text-[#861585] ">
                             Highest bid 5 WEIGHT
                           </span>
@@ -125,7 +123,7 @@ const Tokens = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col bg-[#333232] shadow-md shadow-blue-700 gap-5 rounded-2xl font-poppins 2xl:w-[400px] lg:w-[330px] w-[270px] px-2 py-6">
+              <div className="flex flex-col bg-[#333232] shadow-md shadow-blue-700 gap-5 rounded-2xl font-poppins px-2 py-6 w-full">
                 <div className="flex justify-between items-center ">
                   <span className="md:text-[22px] text-[18px] font-semibold">
                     Top Creators

@@ -31,9 +31,9 @@ const Home = () => {
             <div>
               <span className="2xl:text-[38px] md:text-[30px] text-[24px]">0xalpha.io</span>
             </div>
-            <div className="flex md:gap-[3rem] text-[16px] ">
+            <div className="flex md:gap-[2rem] 2xl:text-[24px] md:text-[12px]">
               
-              <div className="">
+              <div className="2xl:text-[24px] md:text-[12px]">
               <Link to={"./Dashboard"}><button>Dashboard</button></Link> 
               </div>
               <div>
@@ -47,16 +47,16 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <button className="bg-[#0B0121] md:py-3 py-1 md:px-7 px-5 md:text-[16px] text-[12px] rounded-full ">
+              <button className="bg-[#0B0121] md:py-3 py-1 md:px-5 2xl:text-[18px] md:text-[12px] rounded-full ">
                 Connect Wallet
               </button>
             </div>
           </div>
         </div>
         <div
-          className="md:bg-cover"
+          className="bg-cover bg-center h-screen"
           style={{
-            height: "100vh",
+            height: "130vh",
             backgroundImage: `url(${herobackground})`,
             backgroundSize: "cover",
           }}
@@ -77,14 +77,14 @@ const Home = () => {
                 both experienced and novice traders, ensuring potential profit
                 maximization and risk reduction.
               </p>
-              <button className="py-3 px-7 bg-gradient-to-r from-pink-800 to-blue-800 md:w-[30%] hidden   rounded-xl">
+              <button className="py-3 px-7 bg-gradient-to-r from-pink-800 to-blue-800 w-fit rounded-xl">
                 Try it now
               </button>
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-pink-800 to-blue-800  ">
-          <div className="md:flex  mx-[auto] px-11 py-16">
+        <div className="bg-gradient-to-r from-pink-800 to-blue-800 flex justify-center ">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-[70%] justify-center items-center">
             {homedata.map((items) => (
               <HomeCards
                 key={items.title}
@@ -123,7 +123,7 @@ const Home = () => {
               OXalpha Sniper Bot
             </span>
           </div>
-          <div className="flex flex-wrap justify-around gap-5">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-center mx-6">
             <KeyFeaturesCard
               name={"Speed"}
               text={
